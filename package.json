@@ -1,0 +1,26 @@
+{
+  "name": "click-should-be-intercepted-for-navigation",
+  "version": "1.0.0",
+  "description": "Given a click event, returns true if it's a left-click that you should intercept to trigger pushState navigation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/click-should-be-intercepted-for-navigation.git"
+  },
+  "keywords": [
+    "link",
+    "click",
+    "event",
+    "navigation",
+    "pushState"
+  ],
+  "author": "TehShrike",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/TehShrike/click-should-be-intercepted-for-navigation/issues"
+  },
+  "homepage": "https://github.com/TehShrike/click-should-be-intercepted-for-navigation#readme"
+}
