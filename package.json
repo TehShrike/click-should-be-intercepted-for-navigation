@@ -4,7 +4,7 @@
   "description": "Given a click event, returns true if it's a left-click that you should intercept to trigger pushState navigation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified ¯\\_(ツ)_/¯\" && exit 0"
   },
   "repository": {
     "type": "git",
