@@ -1,6 +1,6 @@
 {
   "name": "click-should-be-intercepted-for-navigation",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Given a click event, returns true if it's a left-click that you should intercept to trigger pushState navigation",
   "main": "index.js",
   "types": "index.d.ts",
