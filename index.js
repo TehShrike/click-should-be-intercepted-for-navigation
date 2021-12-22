@@ -4,9 +4,13 @@ function eventIsModifiedByKeyPress(event) {
 function isLeftClick(event){
 	return event.button === 0
 }
+function isTargetingSomewhereElse(anchorElement) {
+	return anchorElement.target && anchorElement.target !== '_self'
+}
 
 module.exports = function shouldIntercept(event) {
 	return !event.defaultPrevented
 		&& !eventIsModifiedByKeyPress(event)
 		&& isLeftClick(event)
+		&& !isTargetingSomewhereElse(event.target)
 }
